@@ -1,0 +1,12 @@
+# F1 Race Simulation
+
+## Kafka Setup
+
+### Windows
+
+1. **Start Zookeeper:**
+   - Run `kafka\start-zookeeper-windows.bat`.
+2. **Start Kafka:**
+   - Run `kafka\start-kafka-windows.bat`.
+3. **Create Kafka Topic:**
+   - Run `kafka\create-topic.bat`.

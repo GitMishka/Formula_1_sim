@@ -1,0 +1,3 @@
+@echo off
+echo Starting Kafka...
+.\bin\windows\kafka-server-start.bat .\config\server.properties

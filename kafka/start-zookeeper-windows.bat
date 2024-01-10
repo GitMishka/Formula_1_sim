@@ -1,0 +1,3 @@
+@echo off
+echo Starting Zookeeper...
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
