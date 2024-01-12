@@ -8,7 +8,6 @@ DB_NAME = config.pg_database
 DB_USER = config.pg_user
 DB_PASS = config.pg_password
 
-# Connect to the Azure PostgreSQL database
 conn = psycopg2.connect(
     host=DB_HOST,
     database=DB_NAME,
