@@ -4,9 +4,9 @@ import time
 import config
 
 DB_HOST = config.pg_host
-DB_NAME = config.pg_host
-DB_USER = config.pg_host
-DB_PASS = config.pg_host
+DB_NAME = config.pg_database
+DB_USER = config.pg_user
+DB_PASS = config.pg_password
 
 # Connect to the Azure PostgreSQL database
 conn = psycopg2.connect(
