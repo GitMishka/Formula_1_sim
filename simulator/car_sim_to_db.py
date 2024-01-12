@@ -1,12 +1,12 @@
 import psycopg2
 import random
 import time
+import config
 
-# Database configuration - replace with your Azure PostgreSQL details
-DB_HOST = "your_db_host"
-DB_NAME = "your_db_name"
-DB_USER = "your_db_user"
-DB_PASS = "your_db_password"
+DB_HOST = config.pg_host
+DB_NAME = config.pg_host
+DB_USER = config.pg_host
+DB_PASS = config.pg_host
 
 # Connect to the Azure PostgreSQL database
 conn = psycopg2.connect(
